@@ -17,12 +17,10 @@ header {
   background-color: rgb(16, 32, 57); 
   padding: 20px 0;
   text-align: center;
-  margin: 10px;
-/*   border-radius: 10px 50px 10px 50px; */
+  margin-bottom: 10px;
+  /* border-radius: 10px 50px 10px 50px; */
 
-/*   position: sticky;
-  top: 0;
-  z-index: 1000;  */
+
 }
 
 /* ------------------------------------------------ */
@@ -44,6 +42,7 @@ header {
   font-weight: bold;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   padding-bottom: 7px;
+  margin-bottom: 10px;
 }
 
 
@@ -64,8 +63,8 @@ span img {
   overflow: hidden;
   background: #0f2152;
   padding: 20px 0;
-  border-radius: 15px;
-/*   margin: 0px 10px ; */
+  /* border-radius: 15px; */
+  /* margin: 0px 10px ; */
 }
 
 .slider-track {
