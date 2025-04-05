@@ -18,11 +18,11 @@ header {
   padding: 20px 0;
   text-align: center;
   margin: 10px;
-  border-radius: 10px 50px 10px 50px;
+/*   border-radius: 10px 50px 10px 50px; */
 
-  position: sticky;
+/*   position: sticky;
   top: 0;
-  z-index: 1000; 
+  z-index: 1000;  */
 }
 
 /* ------------------------------------------------ */
@@ -65,7 +65,7 @@ span img {
   background: #0f2152;
   padding: 20px 0;
   border-radius: 15px;
-  margin: 0px 10px ;
+/*   margin: 0px 10px ; */
 }
 
 .slider-track {
