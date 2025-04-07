@@ -25,6 +25,24 @@ header {
 
 /* ------------------------------------------------ */
 
+
+#br_logo{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+  width: 15%;
+
+}
+
+#gt_logo{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+
+  width: 15%;
+}
+
 #logo_container {
   display: flex;
   flex-direction: column;
@@ -34,6 +52,13 @@ header {
 
 #logo_container img {
   margin-bottom: 10px;
+}
+
+.line1{
+  font-size: 35px;
+  margin-bottom: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
 }
 
 .line2{
@@ -189,8 +214,25 @@ span img {
 
 /* Responsive Styling */
 @media (max-width: 1373px) {
-  #logo{
-    width: 70%;
+
+
+  #br_logo{
+    position: absolute;
+    top: 5%;
+    left: 0px;
+  
+    max-width: 20%;
+     
+    /* display: none; */
+  }
+  
+  #gt_logo{
+    position: absolute;
+    top: 5%;
+    right: 0px;
+  
+    max-width: 20%;
+    /* display: none; */
   }
 
   .slider-track img {
